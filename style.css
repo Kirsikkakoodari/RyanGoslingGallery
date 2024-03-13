@@ -32,8 +32,8 @@ body {
 	height: 100%;
 	line-height: 1;
 	font-size: 14px;
-	background-color: rgb(255, 255, 255);
-	color: rgb(51, 51, 51);
+	background-color: #2E1114;
+	color: #ADADAD;
 	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
 }
 
@@ -44,7 +44,8 @@ h1 {
 .wrapper {
 	min-height: 100vh;
 	display: flex;
-	flex-direction: column;	 
+	flex-direction: column;	
+	justify-content: center;
 }
 /* ---------Reset styles end--------- */
 .items {
@@ -54,13 +55,13 @@ h1 {
 	max-width: 1200px;
 	margin: 0 auto;
 	padding: 20px;
-	align-items: center;
+	
 }
 .items__body {
 	display: grid;
 	grid-template-columns: repeat(auto-fit, minmax(290px, 1fr));
 	gap: 20px;
-	align-items: center;
+	
 }
 .item__video {
 	position: relative;
